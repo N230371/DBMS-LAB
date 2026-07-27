@@ -43,7 +43,7 @@ FROM taxpayer;
 # LEVEL 3
 
 # 9.
-SELECT CONCAT(occupation,':',full_name) 
+SELECT CONCAT("taxpayer : ",full_name,'\n' ,'occupation : ',occupation) 
 AS taxpayer
 FROM taxpayer;
 
