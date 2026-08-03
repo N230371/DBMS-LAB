@@ -140,7 +140,7 @@ SELECT t1.full_name, t2.full_name, t1.occupation
 FROM taxpayer AS t1
 CROSS JOIN taxpayer AS t2
 ON t1.occupation = t2.occupation
-WHERE t1.taxpayer_id != t1.taxpayer_id;
+WHERE t1.taxpayer_id != t2.taxpayer_id;
 
 # Task-6 Display the taxpayer name, PAN number, income source, income category and financial year in a single query.
 
