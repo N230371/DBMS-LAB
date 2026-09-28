@@ -63,7 +63,7 @@ AS annual_income
 FROM taxpayer;
 
 # 2.
-SELECT ABS(annual_income) 
+SELECT ABS(annual_income - 500000)
 AS annual_income
 FROM taxpayer;
 
